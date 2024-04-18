@@ -84,7 +84,7 @@
           &trans           &trans       &trans     &trans      &trans            &trans             &kp PLUS                                                                                   &kp MINUS             &trans     &trans        &trans       &trans     &trans     &trans
           &trans           &trans       &trans     &trans      &trans            &trans            &kp EQUAL  &trans                &trans                                 &trans  &trans  &kp AMPERSAND             &trans     &trans        &trans       &trans     &trans     &trans
           &trans           &trans       &trans     &trans      &trans            &trans                               &kp LEFT_PARENTHESIS                  &kp RIGHT_PARENTHESIS                                    &trans     &trans        &trans       &trans     &trans     &trans
-          &tog 0           &tog 0        &none     &trans      &trans                                 &trans  &trans        &kp LEFT_BRACE                        &kp RIGHT_BRACE  &trans         &trans                        &trans        &trans       &trans     &trans     &trans
+          &tog 4           &tog 0        &none     &trans      &trans                                 &trans  &trans        &kp LEFT_BRACE                        &kp RIGHT_BRACE  &trans         &trans                        &trans        &trans       &trans     &trans     &trans
             >;
         };
 
