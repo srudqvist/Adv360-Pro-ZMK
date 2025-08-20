@@ -83,8 +83,8 @@
     display-name = "Mouse";
     bindings = <
         &trans &trans &trans &trans &trans &trans &trans                                                               &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &none                                                                &none  &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &none &trans &trans &trans &trans                                   &trans &mmv MOVE_X(-200) &mmv MOVE_Y(200) &mmv MOVE_Y(-200) &mmv MOVE_X(200) &trans &trans
+        &trans &trans &trans &trans &trans &trans &none                                                                &none  &trans &trans &mmv MOVE_Y(200) &trans &trans &trans
+        &trans &trans &trans &trans &trans &trans &none &trans &trans &trans &trans                                   &trans &trans &mmv MOVE_X(-200) &mmv MOVE_Y(-200) &mmv MOVE_X(200) &trans &trans
         &trans &trans &trans &trans &trans &trans       &trans &trans                                                         &trans &trans &trans &trans &trans &trans
         &trans &trans &trans &trans &trans       &trans &trans &trans &trans &mkp LCLK &mkp RCLK                                     &trans &trans &trans &trans &trans
       >;
