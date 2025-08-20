@@ -90,7 +90,7 @@
     
     mouse {
     display-name = "Mouse";
-    bindings = 
+    bindings = <
         &trans &trans &trans &trans &trans &trans &trans                                                               &trans &trans &trans &trans &trans &trans &trans
         &trans &trans &trans &trans &trans &trans &none                                                                &none  &trans &trans &trans &trans &trans &trans
         &trans &trans &trans &trans &trans &trans &none &trans &trans &trans &trans                                   &trans &mmv MOVE_X(-100) &mmv MOVE_Y(100) &mmv MOVE_Y(-100) &mmv MOVE_X(100) &trans &trans
