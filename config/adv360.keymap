@@ -84,7 +84,7 @@
       bindings = <
         &trans  &trans  &trans    &trans   &trans  &trans  &trans                                                               &trans &trans &trans &trans &trans &trans &trans
         &trans        &trans      &trans      &trans    &trans &trans  &none                                                    &none  &trans &trans &trans &trans &trans &trans
-        &trans        &trans        &trans        &trans          &trans  &trans  &none  &trans &trans &trans &trans            &tog 4  &mkp MS_LEFT &mkp MS_DOWN &mkp MS_UP &mkp MS_RIGHT &trans &trans
+        &trans        &trans        &trans        &trans          &trans  &trans  &none  &trans &trans &trans &trans            &trans  &mkp MS_LEFT &mkp MS_DOWN &mkp MS_UP &mkp MS_RIGHT &trans &trans
         &trans        &trans        &trans        &trans          &trans  &trans             &trans &trans                             &trans &trans &trans &trans &trans &trans
         &trans        &trans        &trans        &trans          &trans             &trans &trans &trans &mkp MB1 &mkp MB2            &trans &trans &trans &trans &trans &trans
       >;
