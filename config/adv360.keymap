@@ -33,15 +33,6 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
-    mmv: mouse_move {
-            compatible = "zmk,behavior-mouse-move";
-            #binding-cells = <1>;
-        };
-        
-        mkp: mouse_key_press {
-            compatible = "zmk,behavior-mouse-key-press";
-            #binding-cells = <1>;
-        };
   };
 
   keymap {
