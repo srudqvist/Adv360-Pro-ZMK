@@ -52,7 +52,6 @@
               bindings = <&kp>, <&shift_macro>; // Tap sends the key; hold runs the macro
       };
     };
-  };
 
 
 
