@@ -25,31 +25,32 @@
       #include "macros.dtsi"
       #include "version.dtsi"
 
-    hm: homerow_mods {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
-        flavor = "tap-preferred";
-        bindings = <&kp>, <&kp>;
-    };
+      hm: homerow_mods {
+          compatible = "zmk,behavior-hold-tap";
+          #binding-cells = <2>;
+          tapping-term-ms = <200>;
+          quick_tap_ms = <175>;
+          flavor = "tap-preferred";
+          bindings = <&kp>, <&kp>;
+      };
 
 
-    shift_macro: shift_macro {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <1>;      // Accept 1 parameter: the key to press with Shift
-        bindings = <
-            &kp LSHFT              // Press Shift
-            &kp                    // Will be replaced by the parameter (e.g., N1, N2)
-        >;
-    };
-    
-    mt_shift_macro: mt_shift_macro {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <1>;             // Accept 1 key param for tap
-            tapping-term-ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&shift_macro>; // Tap sends the key; hold runs the macro
+      shift_macro: shift_macro {
+          compatible = "zmk,behavior-macro";
+          #binding-cells = <1>;      // Accept 1 parameter: the key to press with Shift
+          bindings = <
+              &kp LSHFT              // Press Shift
+              &kp                    // Will be replaced by the parameter (e.g., N1, N2)
+          >;
+      };
+      
+      mt_shift_macro: mt_shift_macro {
+              compatible = "zmk,behavior-hold-tap";
+              #binding-cells = <1>;             // Accept 1 key param for tap
+              tapping-term-ms = <200>;
+              flavor = "tap-preferred";
+              bindings = <&kp>, <&shift_macro>; // Tap sends the key; hold runs the macro
+      };
     };
   };
 
